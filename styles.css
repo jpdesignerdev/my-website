@@ -58,7 +58,11 @@ body {
     height: 65px;
     display: flex;
     flex-direction: row;
-    margin-bottom: 200px;
+    margin-bottom: 17.5vw;
+}
+
+p {
+    line-height: 1.4;
 }
 
 .nav_img {
@@ -95,7 +99,7 @@ body {
 }
 
 h1 {
-    font-size: 5.5em;
+    font-size: 6.5vw;
     font-weight: 700;
 }
 
@@ -132,6 +136,27 @@ footer {
     border: 3px solid black;
     padding: 1em;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 3.5vw;
+}
+
+
+/*Tablets*/
+@media (max-width: 768px) {
+
+
+.lander_img {
+    max-width: 93vw;
+    min-height: 93vw;
+    object-fit: cover;
+    margin-bottom: 3.5vw;
+}
+
+.grid_img {
+    object-fit: cover;
+    margin-bottom: 3.5vw;
+    max-width: 93vw;
+    min-height: 93vw;
+}
+    
 }
